@@ -35,3 +35,12 @@ We'll pick the model(s) that we want to explore and then implement them.
 ## Phase 4: Writeup
 
 We'll write up the results in a main notebook, organize the repo, and publish blog posts to share our work. 
+
+
+### Ideas
+
+* kNN for users
+
+* Once we have genres attached to each movie after scraping, if we don't have enough intersection between the k users we can infer more data using similar movies the person has already watched in that genre based on some sort of text analysis from rotten tomatoes. 
+* Could potentially use a combination of the two, where we somehow combine the similar users and the similar movies, then with some sort of model that learns ideal weights to put on the similar movies within the genre and the similar movies the k closest users have watched, the model can predict a solid top 5, say, of movies to watch.
+* Don't have to restrict to genre, but a recommender system that takes in a genre input would be a good start.
